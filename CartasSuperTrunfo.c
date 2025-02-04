@@ -35,7 +35,7 @@ int main() {
         scanf("%c", &letraEstado);
      printf("Digite o código da cidade de 1 a 4:\n");
         scanf("%s", &codigoCidade);
-     printf("Digite o nome da cidade:\n");
+     printf("Digite o nome da cidade sem espaço:\n");
         scanf("%s", &nomeCidade);
      printf("Digite a população da cidade:\n");
         scanf("%d", &populacao);
@@ -61,7 +61,7 @@ printf("\n");
           scanf(" %c", &letraEstado2);
         printf("Digite o código da cidade de 1 a 4:\n");
           scanf("%s", &codigoCidade2);
-        printf("Digite o nome da cidade:\n");
+        printf("Digite o nome da cidade sem espaço:\n");
           scanf("%s", &nomeCidade2);
         printf("Digite a população da cidade:\n");
           scanf("%d", &populacao2);
